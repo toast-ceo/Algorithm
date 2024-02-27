@@ -18,22 +18,3 @@ for m, p in arr:
         break
 
 print(result)
-#
-# from sys import stdin
-#
-# input = stdin.readline
-#
-# w, n = map(int, input().split())
-# arr = [list(map(int, input().split())) for _ in range(n)]
-# arr.sort(key=lambda x: x[1], reverse=True)
-#
-# result = 0
-#
-# for weight, value in arr:
-#     if w >= weight:
-#         w -= weight
-#         result = result + (weight * value)
-#     else:
-#         result += (w * value)
-#
-# print(result)
